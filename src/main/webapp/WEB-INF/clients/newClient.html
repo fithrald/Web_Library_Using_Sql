@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Producing new taxpayer</title>
+</head>
+<form th:method="POST" th:action="@{/client/new}" th:object="${client}">
+
+    <body>
+
+    <label for="FIO">enter name here</label>
+    <input type="text" th:field="*{FIO}" id="FIO"/>
+    <div th:if="${#fields.hasErrors('FIO')}" th:errors="*{FIO}">Name error</div>
+    <br/>
+    <label for="FIO">enter birth_year here</label>
+    <input type="text" th:field="*{birth_year}" id="birth_year"/>
+    <div th:if="${#fields.hasErrors('birth_year')}" th:errors="*{birth_year}">Age error</div>
+    <br/>
+    <input type="submit" value="Create!"/>
+
+</form>
+</body>
+
+
+</html>

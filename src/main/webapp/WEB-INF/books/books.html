@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Books</title>
+</head>
+<body>
+<div th:each="book:${books}">
+    <a th:href="@{/book/{id}(id=${book.getId()})}"
+       th:text="${book.getTitle()+ ' , '+book.getAuthor()+ ' , '+book.getYear()}"
+
+    >Something went wrong</a>
+    <br/>
+</div>
+<hr/>
+<a th:href="@{/book/new}">Add new book</a>
+</body>
+</html>

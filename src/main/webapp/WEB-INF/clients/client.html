@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Client</title>
+</head>
+<body>
+<p th:text="${client.getFIO() +  ' , ' +client.getBirth_year()}">VALUE</p>
+<div th:if="${books.isEmpty()}">
+    <span>No books for this man
+
+    <br/>
+        </span>
+    <br/>
+</div>
+
+<div th:if="${!books.isEmpty()}">
+    <hr/>
+    <b> Landed books:</b>
+    <br/>
+    <div th:each="book:${books}">
+        <div th:style ="${book.isOverdue}? 'color: red' : 'color: black' ">
+            <tr th:text="${book.getTitle()+ ' , '+book.getAuthor()+ ' , '+book.getYear()}">
+                >Something went wrong</tr>
+        </div>
+    </div>
+    <hr/>
+    <br/>
+</div>
+<form th:method="GET" th:action="@{/client/info}">
+    <input type="submit" value="Return to all clients!"/>
+
+</form>
+<br/>
+<form th:method="GET" th:action="@{/client/edit/{id}(id=${client.getId()})}">
+    <input type="submit" value="Edit!"/>
+    <br/>
+</form>
+<br/>
+<form th:method="DELETE" th:action="@{/client/{id}(id=${client.getId()})}">
+    <input type="submit" value="Delete!"/>
+</form>
+</body>
+</html>
