@@ -13,7 +13,7 @@ Functionality:
 5) Pagination and sorting if wanted
 6) Validation using Spring and Hibernate validators
 
-
+      Screens of HTML pages:
 
 
 ![image](https://user-images.githubusercontent.com/111792933/218770658-b834ce0c-e321-4453-ab46-ed2fc6eab55e.png)
