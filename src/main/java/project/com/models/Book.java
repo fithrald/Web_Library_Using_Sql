@@ -12,11 +12,8 @@ public class Book {
     public Client owner;
     private int id;
     @NotBlank(message = "title shouldn't be empty")
-    @Pattern(regexp = "[A-Z]\\w+ [a-zA-Z]\\w*", message = "title should start with uppercase")
     private String title;
     @NotBlank(message = "author shouldn't be empty")
-
-    @Pattern(regexp = "[A-Z]\\w+ [A-Z]\\w+", message = "author should start with uppercase")
     private String author;
     @Min(value = 900, message = "year must in range of 900-2022")
     @Max(value = 2022, message = " year must in range of 900-2022")
