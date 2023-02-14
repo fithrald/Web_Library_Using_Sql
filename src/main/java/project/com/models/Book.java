@@ -3,7 +3,7 @@ package project.com.models;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 import java.util.Date;
 
 
@@ -12,8 +12,10 @@ public class Book {
     public Client owner;
     private int id;
     @NotBlank(message = "title shouldn't be empty")
+    @Size(min = 2, max = 20, message = "Title should be between 2 and 20")
     private String title;
     @NotBlank(message = "author shouldn't be empty")
+    @Size(min = 2, max = 20, message = "Author should be between 2 and 20")
     private String author;
     @Min(value = 900, message = "year must in range of 900-2022")
     @Max(value = 2022, message = " year must in range of 900-2022")
