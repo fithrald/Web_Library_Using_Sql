@@ -1,4 +1,4 @@
-This project demonstrates a simple implementation of the web application model using Java, HTML, SpringMVC and SpringData modules of Spring framework.  Additional tools are Thymeleaf, Apache Maven and TomCat
+This project demonstrates a simple implementation of the web application model using Java, HTML, PostgreSQL and SpringMVC.  Additional tools are Thymeleaf, Apache Maven and TomCat
 
 This application is specifically designed for librarians to digitize book recording and simplify the book management process.
 
@@ -7,11 +7,12 @@ Using the application, librarians can easily access book and client information.
 Functionality:
 1) CRUD operations with Client and Book Entities using a one-to-many relationship.
 2) Ability to assign and release books when they have been returned
-3) Delay control using JPA and Java Date
+3) Delay control 
 (books that have not been returned within 10 days are considered delayed)
 4) Book search by title
 5) Pagination and sorting if wanted
 6) Validation using Spring and Hibernate validators
+
 
 
 
