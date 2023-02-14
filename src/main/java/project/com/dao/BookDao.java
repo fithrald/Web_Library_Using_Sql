@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @Repository
 public class BookDao {
-    JdbcTemplate jdbcTemplate;
+    private final    JdbcTemplate jdbcTemplate;
 
     public BookDao(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;

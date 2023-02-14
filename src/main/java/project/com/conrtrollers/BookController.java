@@ -20,9 +20,9 @@ import java.util.Optional;
 @RequestMapping("/book")
 public class BookController {
 
-    BookValidation bookValidation;
-    BookService bookService;
-    ClientService clientService;
+    private final BookValidation bookValidation;
+    private final BookService bookService;
+    private final ClientService clientService;
 
     @Autowired
     public BookController(

@@ -17,8 +17,8 @@ import java.util.List;
 @Controller
 @RequestMapping("/client")
 public class ClientController {
-    ClientService clientService;
-    BookService bookService;
+    private final ClientService clientService;
+    private final  BookService bookService;
 
     @Autowired
     public ClientController(ClientService clientService, BookService bookService, ClientDao clientDao) {

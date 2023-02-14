@@ -14,7 +14,7 @@ import java.util.List;
 
 @Repository
 public class ClientDao {
-    JdbcTemplate jdbcTemplate;
+    private final JdbcTemplate jdbcTemplate;
 
     public ClientDao(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
