@@ -1,3 +1,19 @@
+This project demonstrates a simple implementation of the web application model using Java, HTML, SpringMVC and SpringData modules of Spring framework.  Additional tools are Thymeleaf, Apache Maven and TomCat
+
+This application is specifically designed for librarians to digitize book recording and simplify the book management process.
+
+Using the application, librarians can easily access book and client information. They can also track book circulation and lending activities, ensuring accurate and up-to-date records of book movements within the library.
+
+Functionality:
+1) CRUD operations with Client and Book Entities using a one-to-many relationship.
+2) Ability to assign and release books when they have been returned
+3) Delay control using JPA and Java Date
+(books that have not been returned within 10 days are considered delayed)
+4) Book search by title
+5) Pagination and sorting if wanted
+6) Validation using Spring and Hibernate validators
+
+
 
 ![image](https://user-images.githubusercontent.com/111792933/218770658-b834ce0c-e321-4453-ab46-ed2fc6eab55e.png)
 ![image](https://user-images.githubusercontent.com/111792933/218784361-c3822d6b-591e-438d-b8fe-09278b7fb4fe.png)
