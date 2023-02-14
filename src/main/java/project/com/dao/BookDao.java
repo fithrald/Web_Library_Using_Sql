@@ -94,14 +94,6 @@ public class BookDao {
         return jdbcTemplate.query("SELECT * FROM Book where title like ?", new Object[]{updQuery},
                 new BeanPropertyRowMapper<Book>(Book.class));
     }
-//    public void setOverdue(boolean isOverdue) {
-//        jdbcTemplate.update("UPDATE Book SET client_id=? WHERE Book.id=?", client.getId(), id);
-//    }
-
-    public void setTakenAt(int id) {
-    }
-
-
 }
 
 
