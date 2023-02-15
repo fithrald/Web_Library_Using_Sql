@@ -1,4 +1,4 @@
-This project demonstrates a simple implementation of the web application model using Java, HTML, PostgreSQL and SpringMVC.  Additional tools are Thymeleaf, Apache Maven and TomCat
+This project demonstrates a simple implementation of the web application model using Java, HTML, PostgreSQL and SpringMVC.  Additional tools are Thymeleaf, Apache Maven and TomCat.
 
 This application is specifically designed for librarians to digitize book recording and simplify the book management process.
 
