@@ -18,15 +18,13 @@ Functionality:
 
 ![image](https://user-images.githubusercontent.com/111792933/220378892-65d045b2-3b53-42d7-b30e-41f1d03c5b4e.png)
 
+![image](https://user-images.githubusercontent.com/111792933/220381213-e3cbcc83-9cb4-4daa-871e-b492de06d8a7.png)
 
-![image](https://user-images.githubusercontent.com/111792933/218784361-c3822d6b-591e-438d-b8fe-09278b7fb4fe.png)
-![image](https://user-images.githubusercontent.com/111792933/218785781-33962a16-525d-4740-a080-8aa4ff063a62.png)
-
-
+![image](https://user-images.githubusercontent.com/111792933/220382381-27e5a3de-3aff-4da3-92cc-8887c72f6cb2.png)
 
 
-![image](https://user-images.githubusercontent.com/111792933/218776531-9ae6ae4d-56c2-49ef-9ba8-31231a35f5a1.png)
-![image](https://user-images.githubusercontent.com/111792933/218771073-27aa9804-48ba-4e83-8bf6-df7cdc779273.png)
+![image](https://user-images.githubusercontent.com/111792933/220382832-a2d10013-dbe2-4647-8ad9-6329e91ecd79.png)
+
 
 ![image](https://user-images.githubusercontent.com/111792933/218790520-dcf7a973-6f53-4974-9fcf-4358519bb3f8.png)
 
